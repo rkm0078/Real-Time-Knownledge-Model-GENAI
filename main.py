@@ -1,7 +1,6 @@
 import streamlit as st
 import google.generativeai as ai
 import shelve
-import dotenv
 import os
 
 # Configure the API key
