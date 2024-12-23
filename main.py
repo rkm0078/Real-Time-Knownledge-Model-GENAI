@@ -26,8 +26,9 @@ if "session_id" not in st.session_state:
 
 # Sidebar options
 with st.sidebar:
-    if st.button("Delete history"):
+    if st.button("🗑️ delete history"):
         st.session_state["messages"] = []  # Reset chat history for the current user
+    st.link_button("LinkedIn", "https://www.linkedin.com/in/rkmisntexist/")
     st.link_button("Github", "https://github.com/rkm0078")
 
 # Display chat history for the current user
